@@ -37,14 +37,7 @@ dotnet build
 
 ### 3. Run the Lambda Function
 
-#### Option A: Use Visual Studio Code (Recommended)
-
-1. Open the project in VS Code
-2. Press `F5` or go to Run > Start Debugging
-3. Select the **LambdaRuntimeClient_FunctionHandler** profile
-4. The Lambda Test Tool will start automatically
-
-#### Option B: Run the Test Tool and Lambda Separately
+#### Run the Test Tool and Lambda Separately
 
 **Terminal 1 - Start the Lambda Test Tool:**
 ```bash
@@ -53,7 +46,6 @@ dotnet lambda-test-tool --lambda-emulator-port 5050
 
 ** Start your Lambda function:**
 1. in visual studio click run
-
 
 Then navigate to `http://localhost:5050` in your browser.
 
