@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "LambdaRuntimeClient_FunctionHandler": {
+      "workingDirectory": ".\\bin\\Debug\\net8.0",
+      "commandName": "Executable",
+      "commandLineArgs": "exec --depsfile ./MyLambdaFunction.deps.json --runtimeconfig ./MyLambdaFunction.runtimeconfig.json  %USERPROFILE%/.dotnet/tools/.store/amazon.lambda.testtool/0.11.0/amazon.lambda.testtool/0.11.0/content/Amazon.Lambda.RuntimeSupport/net8.0/Amazon.Lambda.RuntimeSupport.dll MyLambdaFunction::MyLambdaFunction.Function::FunctionHandler",
+      "executablePath": "dotnet",
+      "environmentVariables": {
+        "AWS_LAMBDA_RUNTIME_API": "localhost:5050/MyLambdaFunction"
+      }
+    }
+  }
+}
