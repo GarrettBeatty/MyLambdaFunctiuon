@@ -35,6 +35,7 @@ cd MyLambdaFunction
 dotnet build
 ```
 
+
 ### 3. Run the Lambda Function
 
 #### Run the Test Tool and Lambda Separately
@@ -44,8 +45,9 @@ dotnet build
 dotnet lambda-test-tool --lambda-emulator-port 5050
 ```
 
-** Start your Lambda function:**
-1. in visual studio click run
+## Start your Lambda function
+1. Update the launchsettings.json path to the lambda test tool
+2. in visual studio click run
 
 Then navigate to `http://localhost:5050` in your browser.
 
