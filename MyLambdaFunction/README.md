@@ -42,7 +42,7 @@ dotnet build
 
 **Terminal 1 - Start the Lambda Test Tool:**
 ```bash
-dotnet lambda-test-tool --lambda-emulator-port 5050
+dotnet lambda-test-tool start --lambda-emulator-port 5050
 ```
 
 ## Start your Lambda function
